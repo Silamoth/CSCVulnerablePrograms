@@ -1,3 +1,4 @@
+import hashlib
 
 
 def __main__():
@@ -9,7 +10,7 @@ def __main__():
     password = input()
 
     f = open("logininfo.txt", "w")
-    f.write(username + ',' + password)
+    f.write(username + ',' + hashlib.md5(password.encode('utf-8')).hexdigest())
     f.close()
 
 

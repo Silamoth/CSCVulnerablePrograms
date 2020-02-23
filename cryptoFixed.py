@@ -2,6 +2,8 @@ import hashlib, os, binascii
 
 
 def __main__():
+    print('Account creation')
+    print('-------------------\n')
     print('Enter a username: ')
     username = input()
     print('Enter a password: ')
