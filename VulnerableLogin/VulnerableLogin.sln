@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VulnerableLogin", "VulnerableLogin\VulnerableLogin.csproj", "{A59DC21C-5642-441A-84F8-2E84229E2BDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A59DC21C-5642-441A-84F8-2E84229E2BDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A59DC21C-5642-441A-84F8-2E84229E2BDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A59DC21C-5642-441A-84F8-2E84229E2BDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A59DC21C-5642-441A-84F8-2E84229E2BDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EFF938FB-13D2-48DF-9D29-EC3893912F9B}
+	EndGlobalSection
+EndGlobal
